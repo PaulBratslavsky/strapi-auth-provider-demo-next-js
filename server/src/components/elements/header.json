@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_headers",
+  "info": {
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    },
+    "navItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    },
+    "showSignUp": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
